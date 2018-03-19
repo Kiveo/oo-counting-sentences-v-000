@@ -22,6 +22,6 @@ class String
     #or could use a counter.
     # OR could use array.count {|element| booleanequation} => # of true
     x = self.split(' ')
-    x.count {|element| element.end_with?('.', '?')}
+    x.count {|element| element.end_with?('.', '?', '!')}
   end
 end
